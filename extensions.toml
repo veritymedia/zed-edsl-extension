@@ -1,0 +1,11 @@
+id = "edsl"
+name = "EdgeDB Schema Language Extention"
+version = "0.0.1"
+schema_version = 1
+authors = ["veritymedia"]
+description = "Zed extension for the EdgeDB Schema Language"
+repository = "https://github.com/veritymedia/zed-edsl-extension"
+
+[grammars.edsl]
+repository = "https://github.com/matoous/tree-sitter-esdl"
+commit = "49e21c031c2a1ed06c2ee85937ce73bc12a5801f"
