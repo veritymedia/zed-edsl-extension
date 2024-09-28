@@ -1,20 +1,4 @@
 name = "EdgeDB Schema Language"
 grammer = "edsl"
-path_suffixes = ["edsl", "edgeql"]
-line_comments = ["#"]
-# autoclose_before = "}])"
-# brackets = [
-#   { start = "{", end = "}", close = true, newline = true },
-#   { start = "[", end = "]", close = true, newline = true },
-#   { start = "(", end = ")", close = true, newline = false },
-#   { start = "\"", end = "\"", close = true, newline = false, not_in = [
-#     "comment",
-#     "string",
-#   ] },
-#   { start = "`", end = "`", close = true, newline = false, not_in = [
-#     "comment",
-#     "string",
-#   ] },
-# ]
-# tab_size = 4
-# hard_tabs = true
+path_suffixes = ["edsl"]
+brackets = [{ start = "{", end = "}", close = true, newLine = true }]

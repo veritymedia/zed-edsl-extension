@@ -1,0 +1,3 @@
+[submodule "grammars/edsl"]
+	path = grammars/edsl
+	url = https://github.com/matoous/tree-sitter-esdl
